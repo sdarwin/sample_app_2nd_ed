@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#for testing, in "production".
+gem 'sqlite3', '1.3.5'
+
 gem 'unicorn', '~> 4.8.3'
 gem 'rails', '3.2.16'
 gem 'bootstrap-sass', '2.1'
